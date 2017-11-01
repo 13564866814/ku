@@ -1,0 +1,27 @@
+git init
+ssh-keygen -t rsa -C "13564866814@163.com"
+open id_rsa.pub，copy the key;open the github website (Account Settings-SSH Keys-Add SSH Key)
+ssh -T git@github.com
+git config --global user.name "13564866814"
+git config --global user.email "13564866814@163.com"
+git remote add origin git@github.com:13564866814/ku.git
+git add .
+git commit -m "xxxxx"
+git push origin master
+git push -u origin master
+
+删除文件
+git rm files.后缀
+git commit -m "remove files.后缀"
+git push -u origin master
+
+
+
+git lfs track “*.zip”
+
+git rm
+
+
+
+
+
