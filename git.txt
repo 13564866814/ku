@@ -1,0 +1,23 @@
+git init
+ssh-keygen -t rsa -C "13564866814@163.com"
+open id_rsa.pub copy the key
+back to github website (Account Settings-SSH Keys-Add SSH Key)
+
+confirm the key:
+ssh -T git@github.com
+
+git config --global user.name "13564866814"
+git config --global user.email "13564866814@163.com"
+
+git remote add origin git@github.com:13564866814/ku.git
+
+git add .
+git commit -m "sssss"
+
+git push origin master
+
+git lfs track "*.psd"
+git lfs install
+git push -u origin master
+git pull origin master
+git remote rm origin     mistake use
