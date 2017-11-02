@@ -1,0 +1,2 @@
+wine-qqintl.zip filter=lfs diff=lfs merge=lfs -text
+archlinux-2017.10.01-x86_64.iso filter=lfs diff=lfs merge=lfs -text
